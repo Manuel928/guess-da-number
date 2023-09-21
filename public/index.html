@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Guess The Number</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Guess The Number</h2>
+        <input id="guess-input" class="input" type="text" placeholder="Enter a number between 0 - 10">
+        <button onclick="guess()" id="submit" type="submit"
+            class="bg-white p-2 w-[35%] ml-auto mr-auto mt-3 rounded-lg text-[#414d13]">Guess!</button>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

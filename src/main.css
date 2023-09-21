@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Cinzel Decorative", sans-serif
+}
+.container {
+    @apply w-[80%] ml-auto mr-auto rounded-xl bg-[#414d13] p-[40px] flex flex-col sm:mt-9 mt-6;
+}
+.title {
+    @apply text-center text-3xl text-white font-semibold pb-[20px];
+    /* visibility: hidden; */
+}
+.input {
+    @apply md:w-[60%] h-9 ml-auto mr-auto rounded-xl outline-[#414d13];
+}
+.input::placeholder {
+    font-size: 12px;
+    padding: 6px;
+}
+.container p {
+    @apply text-center text-white mt-2;
+}
